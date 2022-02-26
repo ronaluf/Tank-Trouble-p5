@@ -1,6 +1,6 @@
 //initialize
 let size = 4;
-let w = 400 / size;
+let w = 800/ size;
 let grid = [];
 let stack = [];
 let balls = [];
@@ -14,7 +14,7 @@ let current;
 
 //setup
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(800, 800);
   rows = height / w;
   cols = width / w;
 
@@ -107,7 +107,7 @@ function makeMaze()
   walls = [];
   grid = [];
   size = int(random(2,9))
-  w = 400 / size;
+  w = height / size;
   rows = height / w;
   cols = width / w;
   let c = 0;
