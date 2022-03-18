@@ -1,6 +1,6 @@
 //initialize
 let size = 4;
-let w = 800/ size;
+let w = 400/ size;
 let grid = [];
 let stack = [];
 let balls = [];
@@ -14,7 +14,7 @@ let current;
 
 //setup
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
   rows = height / w;
   cols = width / w;
 
